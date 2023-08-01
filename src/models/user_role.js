@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   User_Role.init({
-    user_id: {
+    userId: {
       type:DataTypes.INTEGER,
       allowNull:false
     },
